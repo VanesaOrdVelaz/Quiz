@@ -1,0 +1,10 @@
+<h1>Nueva Pregunta</h1>
+<div class="container">
+  <%= render 'form' %><br/>
+
+  <%= link_to 'Regresar', questions_path, :class => 'submit'%>
+  <% content_for(:title) do %>
+  New Question
+  <% end %>
+
+</div>
